@@ -18,11 +18,19 @@ body {
     top: 5px;
     text-decoration: underline;}}
 
+
+// header
+.simple_header{
+  @media (min-width: 760px){ position: fixed; }
+  @media (max-width: 760px){ position: absolute; }
+  top: 18px;
+  right: 26px;}
+
+
 // container
 .simple_container{
-  // container
   @media (min-width: 500px){ width: 500px; }
-  @media (max-width: 500px){ width: 100%; }
+  @media (max-width: 500px){ width: 100%; } // varying width
   margin: 0px auto;
   
   // h1
@@ -144,23 +152,14 @@ body {
     font-size: 16px;}
 }
 
-// header
-.simple_header{
-  @media (min-width: 760px){ position: fixed; }
-  @media (max-width: 760px){ position: absolute; }
-  top: 18px;
-  right: 26px;}
-
 // debug
 .debug_area{
   position: fixed;
   bottom: 5px;
   left: 5px;}
 
-
-
 /*
-  to-do list
+  to-do list (for the author)
   - add more styling for more elements 
   - link styling without surrounding container
   - optimal width for mobile/non-mobile break?
@@ -169,5 +168,3 @@ body {
   - run tests in brisk browser
   - more ideas?
 */
-
-
