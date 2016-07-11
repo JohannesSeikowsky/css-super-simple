@@ -1,2 +1,1 @@
-#### design-done-lib
-design-done-lib radically minimizes the effort required to generate a pretty decent UI for your web-application (rails or other). It is meant for hackers who don't like to spend much time on interfaces and front-end stuff, but who understand that presentation is important (like myself).
+design-done-lib provides a set of stylings and components, which make it really easy to produce a UI that doesn't suck. The aim is not to be perfect or great, but good enough with as little effort as possible. It is meant for hackers, who don't like to spend much time on interfaces and front-end stuff, but who understand that presentation is important (like myself).
