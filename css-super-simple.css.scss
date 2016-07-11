@@ -1,0 +1,134 @@
+// css simgple and straightforward
+// my own front-end-framework
+
+.container_normal{
+  // container
+  @media (min-width: 500px){ width: 500px; }
+  @media (max-width: 500px){ width: 100%; }
+  margin: 0px auto;
+  
+  // h1
+  h1{
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;}
+  
+  // h2
+  h2{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 9px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #eee;}
+
+  // p
+  p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;}
+
+  // hr
+  hr{
+    height: 1px;
+    color: #eee;
+    margin-top: 30px;
+    margin-bottom: 30px;}
+  
+  // img
+  img{
+    width: 80%;
+    height: auto;
+    margin: 15px 10% 15px 10%;}
+  
+  // ul
+  ul{
+    margin-bottom: 30px;
+    li{
+      font-size: 16px;
+      line-height: 1.6;}}
+
+  // ol
+  ol{
+    margin-bottom: 30px;
+    li{
+      font-size: 16px;
+      line-height: 1.6;}}
+
+  // links
+  .button{
+    text-align: center;
+    padding: 30px 0px 25px 0px;
+    a{
+      color: black;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 2px solid black;
+      @media (min-width: 500px){ padding: 10px 75px; }
+      @media (max-width: 500px){ padding: 13px 80px; }} // varying button size on mobile
+    a:hover { background-color: orange; }}
+
+
+  // h4 in forms
+  form h4{
+    padding-bottom: 5px;
+    margin-bottom: 5px;}
+
+  // textfields
+  input[type=text], input[type=password]{
+    width: 355px;
+    height: 36px;
+    margin-bottom: 0px;
+    border: 2px solid #eee;
+    border-radius: 6px;}
+
+  // submit buttons
+  input[type=submit]{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 20px;
+    @media (min-width: 500px){ padding: 10px 75px; }
+    @media (max-width: 500px){ padding: 13px 80px; }} // varying button size on mobile
+
+  input[type=submit]:hover{
+    background-color: orange;
+    cursor: pointer;}
+
+  // textareas
+  textarea{
+    width: 100%;
+    height: 90px;}
+
+  // placeholder texts
+  ::-webkit-input-placeholder {
+    font-size: 16px;}
+
+// END
+}
+
+
+
+/*
+  td
+  - incorporating the styles that are currently attached to the body element
+  - missing elements - h3, h4, span etc. what can be done here? html5 elements?
+  - is it possible to have link styling without surrounding container?
+  - whats the optimal boundary for mobile/non-mobile styling? check out.
+  - notices of notices and other things that will emerge in npg development
+  - project name and container name
+  - deploy as gem
+  - define the point of the framework explicity
+  - checking for errors in brisk browser. (install)
+  - use yourself again in project
+
+  - extras
+  - element on bottom - made with Love in ... (always stay on bottom)
+  - links that onhover generate text popup, like the explain now link (javascript things)
+*/
+
