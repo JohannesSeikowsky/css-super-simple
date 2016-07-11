@@ -2,8 +2,6 @@
 // Most stylings are applied directly to the element types, except the styling of links, which is wrapped in a button class.
 // These styles are absolutely meant to be edited, if the user wishes to do so.
 
-
-
 // 1. general
 body {
   height: 100%;
@@ -20,7 +18,7 @@ body {
     top: 5px;
     text-decoration: underline;}}
 
-// 2. container
+// container
 .simple_container{
   // container
   @media (min-width: 500px){ width: 500px; }
@@ -146,14 +144,14 @@ body {
     font-size: 16px;}
 }
 
-// 3.header
+// header
 .simple_header{
   @media (min-width: 760px){ position: fixed; }
   @media (max-width: 760px){ position: absolute; }
   top: 18px;
   right: 26px;}
 
-// 4. debug
+// debug
 .debug_area{
   position: fixed;
   bottom: 5px;
@@ -161,23 +159,15 @@ body {
 
 
 
-
-
 /*
-  to-do list (for the author)
-  - incorporating the styles that are currently attached to the body element
-  - missing elements - h3, h4, span etc. what can be done here? html5 elements?
-  - is it possible to have link styling without surrounding container?
-  - whats the optimal boundary for mobile/non-mobile styling? check out.
-  - notices of notices and other things that will emerge in npg development
-  - deploy as gem
-  - define the point of the framework explicity
-  - checking for errors in brisk browser. (install)
-  - use yourself again in project
-
-  - extras
-  - element on bottom - made with Love in ... (always stay on bottom)
-  - links that onhover generate text popup, like the explain now link (javascript things)
+  to-do list
+  - add more styling for more elements 
+  - link styling without surrounding container
+  - optimal width for mobile/non-mobile break?
+  - ruby gem deloyment
+  - things that emerge during npg development
+  - run tests in brisk browser
+  - more ideas?
 */
 
 

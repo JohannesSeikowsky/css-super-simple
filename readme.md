@@ -1,16 +1,20 @@
-#### design-done-lib
-design-done-lib provides a set of stylings and components, which make it really easy to build a UI that doesn't suck (and works on mobile). The aim is NOT to be amazingly ingenious, but to be pretty decent (maybe even good) with little effort. It's meant for hackers, like myself, who don't like to spend much time and energy on interfaces and front-end stuff, but who understand that presentation is important. One example: https://mynowpage.herokuapp.com.
+design-done-lib provides a set of stylings and components that reduce the effort it takes to build a UI that doesn't suck to almost zero. The aim is not to be great or perfect, but to be pretty decent with very, very little effort. It's meant for hackers, like myself, who don't like to spend much time and energy on interfaces, but who understand that presentation is important. One example: https://mynowpage.herokuapp.com.
 
 #### start using
-All stlyes are in the design-done.css.scss file above. You can simply download it, or even just copy and paste the code. The code is really simple and straightforward. That is by design, so that things are not a pain to understand and edit, if you wish to diverge from the default stylings.
+All stlyes are in the design-done.css.scss file above. You can download it, or even just copy and paste the code. The code is kept as simple as possible in order to make adjusting it as painless as possible.
 
 #### requirements
-Sass. The stylings use nesting, so sass is required. (There are other ways to make this work, feel free to do so if you like.)
+Sass. The stylings use nesting, so sass is required.
+
+#### 1-minute-use-guide
+
+
+
 
 #### inspiration
-Full disclosure. The design is shamelessly stolen from http://yoshuawuyts.com/workshop-distributed-patterns.
-I was looking for an interface design to imitate for my last Rails projet, as I knew that I suck a graphical design and stumbled on this. I figured this looks so good and can pretty much be used for any thing, and that's why I set to write design-done-lib. To have these styles generatlized, and thereby have a way to genreated a good enough UI super quickly for any projects.
+Full disclosure. The design-done-design is shamelessly stolen from http://yoshuawuyts.com/workshop-distributed-patterns
+Knowing that I suck at UI design, I was looking for a UI to imitate pretty closely for my last Rails project. I stumbled upon this site and instictively loved its simplicity. Then it dawned on me that these styles could very simply be generalized and then be used in almost any project to generate a rather decent UI super duper quickly with almost no effort. That was just what I was looking for. Design-done-lib is the result of this.
 
-#### quick-use-guide
-....
+#### not finished
+design-done-lib is ready to be used, but is also a work in progress. I will add (or substract) stuff as I use it for my own projects.
 
