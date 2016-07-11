@@ -15,7 +15,9 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 + add header links within simple_header
 + add elements within simple_container 
 + be done with it
-+ the only questions you have to answer are: what links go in the header? which elements constitute the general page content and in which order?
+
+The only questions you have to answer are: what links go in the header? Which elements constitute the general page content and in which order? Optionally the styling are writte to be super-obvious to edit. If you want to do that, it's really not painful.
+
 
 #### Inspiration
 Full disclosure. The design-done-design is shamelessly stolen from http://yoshuawuyts.com/workshop-distributed-patterns
