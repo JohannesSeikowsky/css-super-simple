@@ -1,4 +1,2 @@
-#### css-super-simple
-css-super-simple is a ridiculously simple css/scss libraray that aims to get the effort you need to exert in order to generate an initial UI for your web-app (rails or other) as close as possible to zero.
-
-aim is to be an 80/5 solution. 80% of the output, 5% or less of the input (your time and sweat that is)
+#### design-done-lib
+design-done-lib radically minimizes the effort required to generate a pretty decent UI for your web-application (rails or other). It is meant for hackers who don't like to spend much time on interfaces and front-end stuff, but who understand that presentation is important (like myself).
