@@ -12,7 +12,8 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 + some styles are applied immediately as a result
 + wrap header in simple_header class: `<div class="simple_header"> ... </div>`
 + wrap elements of page in simple_container class: `<div class="simple_container"> ... </div>`
-+ add header links within simple_header
++ wrap links on your page in a button class: `<div class="button"> ... </div>`
++ add links within simple_header
 + add page elements within simple_container 
 + be done with it
 
