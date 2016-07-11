@@ -13,10 +13,10 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 + wrap header in simple_header class: `<div class="simple_header"> ... </div>`
 + wrap elements of page in simple_container class: `<div class="simple_container"> ... </div>`
 + add header links within simple_header
-+ add elements within simple_container 
++ add page elements within simple_container 
 + be done with it
 
-The only questions you have to answer are: what links go in the header? Which elements constitute the general page content and in which order? Optionally the styling are writte to be super-obvious to edit. If you want to do that, it's really not painful.
+The only questions you have to answer are: Which links go in the header? Which elements constitute the general page content and in which order? Optionally the stylings are written to be very obvious to edit. If you want to do that, it's designed to not be painful.
 
 
 #### Inspiration
