@@ -9,12 +9,13 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 
 #### 1-minute-use-guide
 + add code to project (download or copy and paste)
-+ some general styles are applied immediately as a result
++ some styles are applied immediately as a result
 + wrap header in simple_header class: `<div class="simple_header"> ... </div>`
-+ wrap page content in simple_container class: `<div class="simple_container"> ... </div>`
-+ add links to header
++ wrap elements of page in simple_container class: `<div class="simple_container"> ... </div>`
++ add header links within simple_header
 + add elements within simple_container 
-+ be done
++ be done with it
++ the only questions you have to answer are: what links go in the header? which elements constitute the general page content and in which order?
 
 #### Inspiration
 Full disclosure. The design-done-design is shamelessly stolen from http://yoshuawuyts.com/workshop-distributed-patterns
