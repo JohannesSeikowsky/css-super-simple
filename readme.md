@@ -1,5 +1,5 @@
-#### What does design-done-lib do for me?
-Design-done-lib provides a set of stylings and components that reduce the effort it takes to build a UI that doesn't suck to almost zero. The aim is not to be great, but to be pretty decent with as little effort as possible. It's meant for hackers, like myself, who don't like to spend much time and energy on interfaces, but who understand that presentation is important. One example: https://mynowpage.herokuapp.com.
+#### What does it do for me?
+Design-done-lib provides a set of stylings and components that reduce the effort it takes to build a UI that doesn't suck to almost zero. The aim is not to be great, but to be pretty decent with almost no effort. It's meant for hackers, like myself, who don't like to spend much time and energy on interfaces, but who understand that presentation is important. A design-done-lib site: https://mynowpage.herokuapp.com.
 
 #### How do I begin?
 All stlyes are in the design-done.css.scss file above. You can download it, or even just copy and paste the code. The code is kept as simple as possible in order to make adjusting it as painless as possible.
