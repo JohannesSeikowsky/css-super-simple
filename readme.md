@@ -10,10 +10,10 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 #### 1-minute-use-guide
 + add code to project (download or copy and paste)
 + some general styles are applied immediately as a result
-+ use simple_header class to wrap your header: `<div class="simple_header"> ... </div>`
-+ use simple_container class to wrap general content of the page: `<div class="simple_container"> ... </div>`
-+ add links to your header
-+ add elements within the simple_container (each element type has some styling which you can change if you wish)
++ wrap header in simple_header class: `<div class="simple_header"> ... </div>`
++ wrap page content in simple_container class: `<div class="simple_container"> ... </div>`
++ add links to header
++ add elements within simple_container 
 + be done
 
 #### Inspiration
