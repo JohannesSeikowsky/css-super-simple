@@ -3,6 +3,24 @@
 // These styles are absolutely meant to be edited, if the user wishes to do so.
 
 
+
+// 1. general
+body {
+  height: 100%;
+  margin-bottom: 22px;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  @media (min-width: 500px){ padding-top: 15px; }
+  @media (max-width: 500px){ padding: 15px 10px 0px 10px; } // varying padding
+  a{
+    color: grey; }
+  .notice{
+    color: red;
+    position: fixed;
+    top: 5px;
+    text-decoration: underline;}}
+
+// 2. container
 .simple_container{
   // container
   @media (min-width: 500px){ width: 500px; }
@@ -86,16 +104,16 @@
       text-decoration: none;
       border: 2px solid black;
       @media (min-width: 500px){ padding: 10px 75px; }
-      @media (max-width: 500px){ padding: 13px 80px; }} // varying button size on mobile
+      @media (max-width: 500px){ padding: 13px 80px; }} // varying button size
     a:hover { background-color: orange; }}
-
 
   // h4 in forms
   form h4{
     padding-bottom: 5px;
-    margin-bottom: 5px;}
+    margin-bottom: 5px;
+    border-bottom: 0px;}
 
-  // textfields
+  // textfield
   input[type=text], input[type=password]{
     width: 355px;
     height: 36px;
@@ -103,7 +121,7 @@
     border: 2px solid #eee;
     border-radius: 6px;}
 
-  // submit buttons
+  // submit
   input[type=submit]{
     color: black;
     font-size: 16px;
@@ -112,13 +130,13 @@
     border: 2px solid black;
     margin-top: 20px;
     @media (min-width: 500px){ padding: 10px 75px; }
-    @media (max-width: 500px){ padding: 13px 80px; }} // varying button size on mobile
+    @media (max-width: 500px){ padding: 13px 80px; }} // varying button size
 
   input[type=submit]:hover{
     background-color: orange;
     cursor: pointer;}
 
-  // textareas
+  // textarea
   textarea{
     width: 100%;
     height: 90px;}
@@ -126,9 +144,22 @@
   // placeholder texts
   ::-webkit-input-placeholder {
     font-size: 16px;}
-
-// END
 }
+
+// 3.header
+.simple_header{
+  @media (min-width: 760px){ position: fixed; }
+  @media (max-width: 760px){ position: absolute; }
+  top: 18px;
+  right: 26px;}
+
+// 4. debug
+.debug_area{
+  position: fixed;
+  bottom: 5px;
+  left: 5px;}
+
+
 
 
 
