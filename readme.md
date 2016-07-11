@@ -7,7 +7,7 @@ All stlyes are in the design-done.css.scss file above. You can download it, or j
 #### Any requirements?
 Sass. The stylings use nesting, so sass is required. (or your favorite workaround)
 
-#### 1-minute-use-guide
+#### Quick-Use-Guide
 + add code to project (download or copy and paste)
 + some styles are applied immediately as a result
 + wrap header in simple_header class: `<div class="simple_header"> ... </div>`
