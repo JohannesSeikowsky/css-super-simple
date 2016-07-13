@@ -158,6 +158,14 @@ body {
   bottom: 5px;
   left: 5px;}
 
+// logo
+.simple_logo{
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  @media (max-width: 790px){ display: none; }} // point at whch not to show logo so that it doesnt clash with header
+
+
 /*
   to-do list (for the author)
   - add more styling for more elements 

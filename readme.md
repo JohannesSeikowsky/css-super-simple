@@ -10,11 +10,10 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 #### Use-Guide
 + add code to project (download or copy and paste)
 + some styles are applied immediately as a result
-+ wrap header in simple_header class: `<div class="simple_header"> ... </div>`
-+ wrap elements of page in simple_container class: `<div class="simple_container"> ... </div>`
-+ wrap links on your page in a button class: `<div class="button"> ... </div>`
-+ add links within simple_header
-+ add page elements within simple_container 
++ wrap logo in simple_logo class: `<div class="simple_logo"> ... </div>`
++ wrap header links in simple_header class: `<div class="simple_header"> ... </div>`
++ wrap elements of central page in simple_container class: `<div class="simple_container"> ... </div>`
++ wrap links on that page in a button class: `<div class="button"> ... </div>`
 + be done with it
 
 Which links go in the header? Which elements constitute the general page content and in which order? These are the only questions you should need to answer to generate a UI that in principle looks similar to this site: https://mynowpage.herokuapp.com.
