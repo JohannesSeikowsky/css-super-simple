@@ -1,8 +1,8 @@
-#### What does it do for me?
+#### What does it do?
 Design-done-lib provides a set of stylings and components that reduce the effort it takes to build a UI that doesn't suck to almost zero. The aim is not to be great, but to be pretty decent with almost no effort. It's meant for hackers, like myself, who don't like to spend much time and energy on interfaces, but who understand that presentation is important. A design-done-lib site: https://mynowpage.herokuapp.com.
 
 #### How to begin?
-All stlyes are in the design-done.css.scss file above. You can download it, or just copy and paste the code. The code is kept as simple as possible in order to make adjusting it as painless as possible. I'm also planning to make it a ruby gem for easy use in Rails projects.
+All styles are in the design-done.css.scss file above. You can download it, or just copy and paste the code. The code is kept as simple as possible in order to make adjusting it as painless as possible. I'm also planning to make it a ruby gem for easy use in Rails projects.
 
 #### Any requirements?
 Sass. The stylings use nesting, so sass is required. (or your favorite workaround)
@@ -16,10 +16,8 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 + wrap links on that page in a button class: `<div class="button"> ... </div>`
 + be done with it
 
-Which links go in the header? Which elements constitute the general page content and in which order? These are the only questions you should need to answer to generate a UI that in principle looks similar to this site: https://mynowpage.herokuapp.com.
-
 #### Editable
-The stylings are deliberately written to be very easy to edit. If you want to do so, it's not a pain.
+The stylings are deliberately written to be very easy to edit. In fact, they are meant to be edited.
 
 #### Inspiration
 Full disclosure. The design-done-design is shamelessly stolen from http://yoshuawuyts.com/workshop-distributed-patterns
