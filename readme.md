@@ -12,9 +12,9 @@ Sass. The stylings use nesting, so sass is required. (or your favorite workaroun
 + some styles are applied immediately as a result
 + wrap logo in simple_logo class: `<div class="simple_logo"> ... </div>`
 + wrap header links in simple_header class: `<div class="simple_header"> ... </div>`
-+ wrap all elements of the central page (header, forms etc) in simple_container class: `<div class="simple_container"> ... </div>`
-+ wrap links within simple_container in a button class: `<div class="button"> ... </div>`
-+ be done with hacking an ok UI as quickly as possible
++ wrap all elements of the central page (headers, paragraphs, forms etc) in a simple_container class: `<div class="simple_container"> ... </div>`
++ wrap links within that simple_container in a button class: `<div class="button"> ... </div>`
++ be done with it
 
 #### Editable
 The stylings are deliberately written to be very easy to edit. In fact, they are meant to be edited.
